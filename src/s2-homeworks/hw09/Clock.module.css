@@ -1,0 +1,44 @@
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clock {
+    width: 200px;
+
+}
+
+.watch {
+    & span {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 1);
+    }
+
+}
+
+.watch strong {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.more {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 8px;
+    margin-bottom: 27px;
+}
+
+.buttonStyle {
+    padding: 5px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+}

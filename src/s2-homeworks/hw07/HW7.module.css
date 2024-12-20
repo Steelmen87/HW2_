@@ -1,0 +1,6 @@
+.container {
+    display: flex;
+    align-items: baseline;
+    width: 340px;
+    justify-content: space-between;
+}

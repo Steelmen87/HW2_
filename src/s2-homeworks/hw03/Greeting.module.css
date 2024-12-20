@@ -1,0 +1,42 @@
+.greetingForm {
+}
+
+.inputAndButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.error {
+}
+
+.input {
+    margin-left: 0 !important;
+
+}
+
+.input:focus {
+}
+
+.errorInput {
+}
+
+.button {
+    margin-top: 10px;
+
+}
+
+.button:focus {
+}
+
+.button:active {
+}
+
+.button:disabled {
+}
+
+.text {
+}
+
+.greeting {
+}

@@ -1,0 +1,70 @@
+.button {
+    padding: 5px 24px 5px 24px;
+    gap: 10px;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 1);
+
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+.disabled {
+    background: rgba(0, 77, 153, 1);
+    color: rgba(0, 46, 92, 1);
+
+    opacity: 50%;
+}
+
+.secondary {
+    color: rgba(0, 102, 204, 1);
+    background-color: #fff;
+    border: 1px solid rgba(0, 77, 153, 1);
+}
+
+.default {
+    background: rgba(0, 102, 204, 1);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(0, 102, 204, 1);
+}
+
+.red {
+    background: rgba(204, 20, 57, 1);
+    border: 2px solid rgba(204, 20, 57, 1);
+}
+
+.default:hover {
+    background: rgba(0, 128, 255, 1);
+
+}
+
+.red:hover {
+    background: rgba(255, 26, 71, 1);
+
+}
+
+.secondary:hover {
+    background: rgba(229, 240, 250, 1);
+
+}
+
+
+.default:active {
+    background: rgba(0, 89, 178, 1);
+}
+
+.secondary:active {
+    border: 1px solid rgba(0, 102, 204, 1)
+}
+
+.red:active {
+    background: rgba(178, 18, 50, 1);
+
+}
+
+.button:disabled {
+    background: rgba(0, 77, 153, 1);
+
+}

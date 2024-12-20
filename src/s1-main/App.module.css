@@ -1,0 +1,26 @@
+.App {
+    --header_height: 60px;
+    min-width: 1280px;
+    width: 100%;
+    top: 131px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hw {
+    margin-top: 40px;
+
+}
+
+.hwTitle {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+
+}
